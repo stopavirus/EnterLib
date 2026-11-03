@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import app.enterlib.data.*
 import coil.compose.AsyncImage
+import androidx.compose.runtime.saveable.rememberSaveable
 
 @Composable
 fun HomeScreen(spec: UiSpec, onOpen: (Long) -> Unit, onPlay: (Long, Long) -> Unit, onSettings: () -> Unit) {
